@@ -1,0 +1,39 @@
+LLM: Claude
+Date: September 20 2026
+
+User:
+How can I set the values of a column in a polars dataframe to NA where a boolean mask column is true
+
+Claude:
+Use `when/then/otherwise` — the branch that isn't taken defaults to null, so you can just leave it out:
+
+```python
+import polars as pl
+
+df = pl.DataFrame({"x": [1, 2, 3, 4], "mask": [False, True, False, True]})
+
+df = df.with_columns(
+    pl.when(pl.col("mask")).then(None).otherwise(pl.col("x")).alias("x")
+)
+```
+
+Or flip the condition and drop `otherwise` entirely, which does the same thing more compactly:
+
+```python
+df.with_columns(pl.when(~pl.col("mask")).then(pl.col("x")).alias("x"))
+```
+
+A couple of notes:
+
+- **Keep the alias.** Without `.alias("x")` you get a new column named after the condition rather than an in-place replacement.
+- **Dtype.** `then(None)` normally resolves to the dtype of the other branch, but if you hit a supertype complaint (common with nested or temporal types), be explicit: `.then(pl.lit(None, dtype=pl.Int64))`.
+- **Several columns at once:**
+
+```python
+cols = ["x", "y", "z"]
+df.with_columns(
+    pl.when(pl.col("mask")).then(None).otherwise(pl.col(cols)).name.keep()
+)
+```
+
+`name.keep()` preserves each original column name so they're replaced rather than appended.

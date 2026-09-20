@@ -1,20 +1,126 @@
-width,length,flying_time
-70,111,1.83
-57,127,2.32
-59,92,2.05
-70,75,1.1
-62,112,2.32
-68,103.5,0.5
-58,108,1.7
-79,114,0.86
-56,186,3.42
-87,68,1.37
-50,118,2.68
-49,186,1.83
-61,116,1.32
-60,127,1
-56,184,2.79
-69,124,1.4
-60,95,1.12
-44,137,1.28
-63,125,1.35
+_id,Year of death,Subgroup,Final_Age (group),Gender,Count,is_suppressed
+1,2022,Acute Drug Toxicity,20-39,Female,23,false
+2,2024,Pending,60+,Female,1,false
+3,2024,Cardiovascular Disease,60+,Male,4,false
+4,2023,Homicide,20-39,Female,2,false
+5,2024,Suicide,20-39,Male,2,false
+6,2022,Other Diseases,40-59,Male,10,false
+7,2022,Cardiovascular Disease,Unknown,Male,1,false
+8,2024,Homicide,40-59,Male,3,false
+9,2023,Suicide,40-59,Male,4,false
+10,2022,Other Diseases,<20,Male,,true
+11,2022,Unintentional Injury,40-59,Male,8,false
+12,2022,Unknown,60+,Male,17,false
+13,2024,Unknown,20-39,Male,3,false
+14,2022,Suicide,60+,Male,3,false
+15,2023,Unknown,20-39,Unknown,1,false
+16,2022,Acute Drug Toxicity,40-59,Male,69,false
+17,2023,Cardiovascular Disease,20-39,Female,1,false
+18,2024,Cardiovascular Disease,Unknown,Male,1,false
+19,2024,Acute Drug Toxicity,20-39,Unknown,1,false
+20,2024,Other Diseases,40-59,Male,11,false
+21,2024,Acute Drug Toxicity,<20,Female,,true
+22,2022,Other Diseases,60+,Male,10,false
+23,2023,Unknown,Unknown,Female,2,false
+24,2023,Unintentional Injury,20-39,Male,5,false
+25,2024,Pending,40-59,Female,2,false
+26,2024,Unknown,20-39,Female,1,false
+27,2024,Acute Drug Toxicity,20-39,Female,21,false
+28,2023,Unknown,20-39,Female,1,false
+29,2024,Unknown,60+,Female,1,false
+30,2023,Acute Drug Toxicity,20-39,Male,56,false
+31,2022,Acute Drug Toxicity,60+,Male,16,false
+32,2023,Acute Drug Toxicity,60+,Male,17,false
+33,2023,Other Diseases,20-39,Female,1,false
+34,2022,Unintentional Injury,60+,Male,2,false
+35,2024,Cardiovascular Disease,60+,Female,2,false
+36,2022,Cardiovascular Disease,60+,Male,22,false
+37,2022,Homicide,40-59,Male,1,false
+38,2024,Unknown,40-59,Male,7,false
+39,2022,Unknown,60+,Female,4,false
+40,2023,Acute Drug Toxicity,20-39,Female,17,false
+41,2023,Other Diseases,60+,Male,11,false
+42,2024,Cardiovascular Disease,<20,Male,,true
+43,2024,Pending,40-59,Male,12,false
+44,2022,Cardiovascular Disease,60+,Female,3,false
+45,2024,Unintentional Injury,60+,Male,3,false
+46,2023,Pending,Unknown,Unknown,1,false
+47,2024,Acute Drug Toxicity,40-59,Female,10,false
+48,2024,Other Diseases,Unknown,Male,1,false
+49,2023,Acute Drug Toxicity,60+,Female,1,false
+50,2022,Acute Drug Toxicity,40-59,Female,12,false
+51,2024,Unintentional Injury,40-59,Male,5,false
+52,2022,Unintentional Injury,20-39,Male,4,false
+53,2022,Acute Drug Toxicity,60+,Female,1,false
+54,2023,Homicide,40-59,Female,1,false
+55,2023,Unintentional Injury,20-39,Female,1,false
+56,2024,Unknown,Unknown,Male,3,false
+57,2023,Other Diseases,Unknown,Male,2,false
+58,2024,Suicide,40-59,Male,1,false
+59,2022,Other Diseases,20-39,Male,1,false
+60,2022,Unknown,Unknown,Male,8,false
+61,2023,Unknown,60+,Male,16,false
+62,2023,Unintentional Injury,60+,Male,2,false
+63,2024,Acute Drug Toxicity,20-39,Male,31,false
+64,2022,Cardiovascular Disease,40-59,Male,6,false
+65,2022,Other Diseases,Unknown,Male,2,false
+66,2022,Pending,40-59,Male,2,false
+67,2022,Suicide,20-39,Male,5,false
+68,2022,Unintentional Injury,60+,Female,1,false
+69,2022,Acute Drug Toxicity,<20,Male,,true
+70,2024,Unintentional Injury,60+,Female,1,false
+71,2022,Pending,20-39,Female,1,false
+72,2022,Other Diseases,40-59,Female,3,false
+73,2023,Suicide,60+,Male,1,false
+74,2024,Pending,60+,Male,6,false
+75,2022,Acute Drug Toxicity,<20,Female,,true
+76,2022,Unknown,Unknown,Female,1,false
+77,2024,Pending,20-39,Female,1,false
+78,2024,Acute Drug Toxicity,60+,Female,1,false
+79,2022,Acute Drug Toxicity,20-39,Male,49,false
+80,2022,Suicide,40-59,Male,4,false
+81,2022,Unknown,Unknown,Unknown,2,false
+82,2023,Unknown,60+,Female,1,false
+83,2022,Homicide,40-59,Female,1,false
+84,2024,Unknown,60+,Male,3,false
+85,2023,Unknown,Unknown,Male,3,false
+86,2023,Cardiovascular Disease,60+,Male,11,false
+87,2022,Unknown,20-39,Female,1,false
+88,2023,Homicide,40-59,Male,3,false
+89,2024,Acute Drug Toxicity,40-59,Male,36,false
+90,2022,Suicide,<20,Female,,true
+91,2023,Unintentional Injury,40-59,Male,9,false
+92,2022,Pending,20-39,Male,1,false
+93,2024,Acute Drug Toxicity,Unknown,Female,1,false
+94,2022,Unknown,20-39,Male,2,false
+95,2023,Acute Drug Toxicity,40-59,Female,20,false
+96,2023,Other Diseases,60+,Female,2,false
+97,2024,Suicide,60+,Male,1,false
+98,2023,Unknown,20-39,Male,5,false
+99,2023,Acute Drug Toxicity,<20,Female,,true
+100,2022,Other Diseases,60+,Female,6,false
+101,2022,Cardiovascular Disease,40-59,Female,2,false
+102,2023,Cardiovascular Disease,60+,Female,1,false
+103,2023,Other Diseases,40-59,Female,1,false
+104,2024,Other Diseases,60+,Male,4,false
+105,2022,Unintentional Injury,40-59,Female,2,false
+106,2024,Acute Drug Toxicity,Unknown,Male,2,false
+107,2022,Cardiovascular Disease,20-39,Male,1,false
+108,2023,Pending,40-59,Male,3,false
+109,2023,Unknown,40-59,Male,10,false
+110,2023,Acute Drug Toxicity,40-59,Male,63,false
+111,2022,Acute Drug Toxicity,Unknown,Male,1,false
+112,2023,Suicide,20-39,Male,4,false
+113,2023,Other Diseases,40-59,Male,8,false
+114,2023,Pending,20-39,Male,2,false
+115,2024,Other Diseases,20-39,Male,2,false
+116,2024,Cardiovascular Disease,40-59,Male,5,false
+117,2023,Cardiovascular Disease,40-59,Male,6,false
+118,2024,Pending,20-39,Male,6,false
+119,2024,Homicide,20-39,Male,1,false
+120,2024,Acute Drug Toxicity,60+,Male,9,false
+121,2022,Other Diseases,20-39,Female,3,false
+122,2023,Unknown,40-59,Female,3,false
+123,2022,Unknown,40-59,Female,2,false
+124,2022,Unknown,40-59,Male,7,false
+125,2024,Other Diseases,60+,Female,2,false
